@@ -28,11 +28,12 @@ import 'package:practiceApp/src/04Examples/animation_screen_widget.dart';
 import 'package:practiceApp/src/04Examples/right_silde_widget.dart';
 import 'package:practiceApp/src/04Examples/tooltip_widget.dart';
 import 'package:practiceApp/src/04Examples/drag_widget.dart';
+import 'package:practiceApp/src/05Trip/app.dart';
 
 void main() {
   runApp(
-//    MainApp(),
-//    TextWidget(),
+  //  MainApp(),
+  //  TextWidget(),
 //    ContainerComponent()
 //    ImageComponent()
 //      ListViewComponent()
@@ -48,8 +49,8 @@ void main() {
 //      ProductListWidget()
 //      NavigateAndBack()
 //      AssestLoad()
-//      BottomNavigation()
-//      BottomNavigationFloat()
+    //  BottomNavigation()
+    //  BottomNavigationFloat()
 //      TransitionRouter()
 //      BackdropFilterWidget()
 //    KeepAliveWidget()
@@ -61,6 +62,7 @@ void main() {
 //      AnimationScreenWidget()
 //    RightSildeWidget()
 //    TooltipWidget()
-      DragWidget()
+      // DragWidget()
+    App()
   );
 }
